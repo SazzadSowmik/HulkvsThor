@@ -704,12 +704,12 @@ body {
     }
   }
 
-  /* .fistRight{
+  .fistRight{
     width: 4.375em;
     height: 4.375em;
     position: absolute;
     border-radius: 50%;
-    margin-top: 30em;
+    margin-top: 25em;
     margin-left: 50em;
     background: #b5b500;
     ;
@@ -723,12 +723,14 @@ body {
     35%{
       visibility: hidden;
     }
-    60%{
-      margin-top: 30em;
-      margin-left: 50em;
+    65%{
+      visibility: hidden;
+    }
+    99%{
+      visibility: hidden;
     }
     100%{
-      margin-top: 30em;
-      margin-left: 50em;
+      margin-top: 35.5em;
+      margin-left: 43em;
     }
-  } */
+  }
