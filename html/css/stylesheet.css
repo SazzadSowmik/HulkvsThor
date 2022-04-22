@@ -32,8 +32,8 @@
 .punch{
   width: 13.313em;
   height: 13.75em;
-  left: 559px;
-  bottom: 78px;
+  left: 34.313em;
+  bottom: 5.55em;
   border-radius: 50%;
   background: #bdbd00;
   position: absolute;
@@ -58,7 +58,7 @@ body {
 
   .thor {
     position: absolute;
-    margin-left: 880px;
+    margin-left: 865px;
     z-index: 1000;
     margin-bottom: 220px;
     bottom: 0;
@@ -657,6 +657,13 @@ body {
       margin-left: 2em;
       clip: rect(-1em, 11.2em, 12.55em, 7.625em);
       transform: translateY(-2em) translateX(7em) rotate(-95deg);
+    }
+    100%{
+      margin-top: 1em;
+      margin-left: 2em;
+      clip: rect(-1em, 11.2em, 12.55em, 7.625em);
+      transform: rotate(2deg);
+      position: absolute;
     }
   }
   @keyframes thorFly{
