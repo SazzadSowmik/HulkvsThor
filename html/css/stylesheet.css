@@ -545,7 +545,7 @@ body {
     20% {
       margin-top: -8.125em;
       margin-left: 2.5em;
-      clip: rect(0.563em, 13.363em, 13.75em, 6.625em);
+      clip: rect(0.563em, 13.363em, 13.75em, 6.625em); 
     }
     30% {
       margin-top: -8.125em;
@@ -674,3 +674,61 @@ body {
       transform: translateX(60em) rotate(360deg);
     }
   }
+
+  .fistLeft {
+    width: 4.375em;
+    height: 4.375em;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 30em;
+    margin-left: 32em;
+    background: #b5b500;
+    ;
+    z-index: 10;
+    animation: handFistLeft 7s infinite;
+  }
+  @keyframes handFistLeft{
+    0%{
+      visibility: hidden;
+    }
+    35%{
+      visibility: hidden;
+    }
+    60%{
+      margin-top: 37em;
+      margin-left: 32.15em;
+    }
+    100%{
+      margin-top: 37em;
+      margin-left: 32em;
+    }
+  }
+
+  /* .fistRight{
+    width: 4.375em;
+    height: 4.375em;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 30em;
+    margin-left: 50em;
+    background: #b5b500;
+    ;
+    z-index: 10;
+    animation: handFistRight 7s infinite;
+  }
+  @keyframes handFistRight{
+    0%{
+      visibility: hidden;
+    }
+    35%{
+      visibility: hidden;
+    }
+    60%{
+      margin-top: 30em;
+      margin-left: 50em;
+    }
+    100%{
+      margin-top: 30em;
+      margin-left: 50em;
+    }
+  } */
